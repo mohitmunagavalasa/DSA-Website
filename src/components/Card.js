@@ -693,7 +693,7 @@ export default function Card(props) {
     const data = props.data
     console.log(data)
     return (
-        <div style= {{...myStyle, padding:"20px"}} className='my-0'>
+        <div style= {{...myStyle, padding:"20px", minHeight:"100vh"}} className='my-0'>
         <div className='container'>
             {/* <div className="accordion" id={`accordionExample${1}`}> */}
             {data.map((eachItem) => {
