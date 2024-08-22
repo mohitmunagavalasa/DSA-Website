@@ -34,9 +34,9 @@ export default function Problem(props) {
                                     <li>
                                         <h6 className={`text-${props.mode === 'light'?'dark':'light'}`}>Practice : <i class="fa-regular fa-keyboard"></i></h6>
                                         <div className="flex flex-row justify-content-center">
-                                            {eachItem.leetcode !== "" && <a href={`${eachItem.leetcode}`} target="_blank" className='m-1'><button type="button" className={`btn btn${btnStyle}-warning btn-sm`}>leetcode</button></a>}
-                                            {eachItem.gfg !== "" && <a href={`${eachItem.gfg}`} target="_blank" className='m-1'><button type="button" className={`btn btn${btnStyle}-success btn-sm`}>GFG</button></a>}
-                                            {eachItem.codingNinjas !== "" && <a href={`${eachItem.codingNinjas}`} target="_blank" className='m-1'><button type="button" className={`btn btn${btnStyle}-secondary btn-sm`}>code 360</button></a>}
+                                            {eachItem.leetcode !== "" && <a href={`${eachItem.leetcode}`} target="_blank" className='m-1'><button type="button" className={`btn btn${btnStyle}-warning btn-sm m-1`}>leetcode</button></a>}
+                                            {eachItem.gfg !== "" && <a href={`${eachItem.gfg}`} target="_blank" className='m-1'><button type="button" className={`btn btn${btnStyle}-success btn-sm m-1`}>GFG</button></a>}
+                                            {eachItem.codingNinjas !== "" && <a href={`${eachItem.codingNinjas}`} target="_blank" className='m-1'><button type="button" className={`btn btn${btnStyle}-secondary btn-sm m-1`}>code 360</button></a>}
                                         </div>
                                     </li>
                                 </ul>
